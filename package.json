@@ -1,0 +1,21 @@
+{
+  "name": "homebridge-ikonke-outlet",
+  "version": "0.0.1",
+  "description": "ikonke outlet plugins for HomeBridge(https://github.com/nfarina/homebridge).",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "author": "YinHang",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YinHangCode/homebridge-ikonke-outlet"
+  },
+  "bugs": {
+    "url": "https://github.com/YinHangCode/homebridge-ikonke-outlet/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.4.1"
+  }
+}
