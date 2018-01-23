@@ -31,7 +31,7 @@ npm install -g homebridge-ikonke-outlet
 ```
 "platforms": [{
     "platform": "IkonkeOutletPlatform",
-    "ikonkeIO": "/home/pi/node_modules/ikonkeIO/ikonkeIO.sh",
+    "ikonkeIO": "/home/pi/ikonkeIO/ikonkeIO.sh",
     "deviceCfgs": [{
         "type": "k2pro",
         "ip": "192.168.88.42",
