@@ -56,7 +56,7 @@ npm install -g homebridge-ikonke-outlet
         "outletDisable": false,
         "outletName": "KMiniPro插座"
     }, { 
-        "type": "mini_2",
+        "type": "mini_w",
         "ip": "192.168.88.44",
         "mac": "aa-bc-23-66-12-d7",
         "password": "aA7-G-ef",
@@ -67,7 +67,7 @@ npm install -g homebridge-ikonke-outlet
 ```
 ## 版本更新记录
 ### 0.0.2 (2018-01-27)
-1.增加支持K Mini设备。   
+1.增加支持控制K Mini设备。   
 ### 0.0.1 (2017-09-16)
 1.支持控制K2设备。   
 2.支持控制K2 Pro设备。   
