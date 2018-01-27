@@ -1,6 +1,7 @@
 require('./Devices/K2ProOutlet');
 require('./Devices/K2Outlet');
 require('./Devices/MiniBOutlet');
+require('./Devices/MiniWOutlet');
 
 var fs = require('fs');
 var packageFile = require("./package.json");
@@ -91,6 +92,10 @@ IkonkeOutletPlatform.prototype = {
                     });
                 } else if (deviceCfg['type'] == "mini_b") {
                     new MiniBOutlet(this, deviceCfg).forEach(function(accessory, index, arr){
+                        myAccessories.push(accessory);
+                    });
+                } else if (deviceCfg['type'] == "mini_w") {
+                    new MiniWOutlet(this, deviceCfg).forEach(function(accessory, index, arr){
                         myAccessories.push(accessory);
                     });
                 } else {
